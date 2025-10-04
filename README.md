@@ -46,3 +46,12 @@ Monju-AIは「**使うほどに賢くなる共同の知恵の場**」を目指�
 docs: update README.md for public release
 
 chore: enhance README with project vision
+
+# Monju-AI
+
+共同知恵ストレージCLIツール
+
+## インストール
+
+python -m monju_ai.cli add "AI設計" "小さく作って素早く学ぶ" --tags practice --tags design
+python -m monju_ai.cli list
