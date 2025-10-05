@@ -55,3 +55,12 @@ chore: enhance README with project vision
 
 python -m monju_ai.cli add "AI設計" "小さく作って素早く学ぶ" --tags practice --tags design
 python -m monju_ai.cli list
+
+Monju-AI/
+├── README.md              ← プロジェクト全体の概要（このページ）
+├── poc/                   ← 検証実験（Proof of Concept）ディレクトリ
+│   ├── 8queens/           ← PoC #01: 8クイーン問題 実装例
+│   │   └── README.md
+├── src/                   ← コアコード・アルゴリズム類
+├── LICENSE
+└── .gitignore
